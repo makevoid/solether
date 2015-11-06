@@ -1,0 +1,88 @@
+
+.big_m {
+  padding-top:80px; padding-bottom:80px;
+
+}
+
+.clouds {
+  background: url('../images/header-background.jpg');
+  background-size: cover;
+  background-position: 50%  62%;
+}
+
+.white-text {
+  color: white;
+}
+.white-text input  {
+  color: #222;
+}
+
+
+.blue {
+  background: #224e9e;
+}
+.blue2 {
+  background: rgb(54, 134, 255);
+}
+.blue3 {
+  background: #36bfff;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /*line-height: 30px;*/
+}
+
+input[type=button].btn-white {
+  background: white;
+}
+
+input[type=button].btn-large {
+  width: 255px;
+}
+
+.link-color-blue a {
+  color: blue;
+}
+
+.spacer10 {
+  height: 10px
+}
+.spacer20 {
+  height: 20px
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../font/lato.ttf');
+}
+
+.hidden {
+  display: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.title > h1 > span {
+  font-size: 80%;
+}
+
+/*lignt_blue: rgb(54, 134, 255)*/
+
+.thank_you {
+  font-size: 130%;
+  /*color: $light_blu*/
+  color: rgb(54, 134, 255);
+}
+
+.train_number input {
+  width: 45%;
+  text-align: center;
+}
+
+.text-big {
+  font-size: 160%;
+}
