@@ -24,25 +24,34 @@
 -# video to add - intel edison plus solether
 
 .box.b2
-  %p How does it works?
+  %p 
   %img.class43{src:"/images/solether_graph.png"}/
  
-
-  1 ether - full charge
-  0.1 ether - 10min charge
 
 
 .box.b3
   %h4
-    sun + solar panel + battery + blockchain = autonomous energy
+    Sun + Solar Panel + Battery + Intel Edison + Blockchain = Autonomous Energy
+  %p.class23
+    This is how it works:It watches an ethereum address, if it that address receives a payment, it let the energy flow through the usb port so you can charge your phone or your tablet for example.
+    
+.box.b31
 
+  %p.class232
+    Solether is an ethereum entity, you can extend this project and add some logic to it. For example, a more advanced version of Solether could enable you to give it the  ability to grow and/or replicate. Because Solether is selling energy in exchange for Ethers, after some time it will collect a good amount of them, that will probably be higher than the cost of the Solether device itself. After having reached this point, it could ask to other humans (or robots :D) to make it grow. A human can plug more solar panels and batteries to the Solether entity and receive money in return. The device will check if it is receiving the energy from the additional panels/batteries and pay the one that extended it. This way Solether devices can grow and replicate autonomously.
+    
+  %img{src:"/images/solether-fields-long.png"}/
+
+.box.b32
+  %p.class23
+    Solether is a an autonomous entity that will give you electrical energy in exchange for ethers.You can charge your phone for 30 minutes by just plugging it in and sending 1 Ether.
 
 .box.b4
   %h4
     Find Solether
 
   %label
-    Your location
+    Your Location
     %input{placeholder:"W2 3UP"}
 
 .box.b5
@@ -58,7 +67,12 @@
 .box.b7
   %p Your device is charging! :)
 
+.box.b8
+  %p.class232 
+  Solether is an open source DIY project targeted to create a simple proof of concept of what an autonomous ethereum entity can be like.Solether code is running on an Arudino/Intel Edison
+
+
 .box
   %p code
   %div{ width: "70%"}
-    %script{height: 300, width:"100%", :src => "https://gist.github.com/makevoid/edcb65b679ddbd8c69fd.js"}
+    %script{height: 300, width:"100%", :src => "https://gist.github.com/makevoid/e577c423c15c265e75a7.js"}
