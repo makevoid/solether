@@ -11,21 +11,21 @@
 .box.b1
   .s30
 
-  %h3 
+  %h3
     Autonomous Electrical Energy Entities
 
   %p.class23
     Imagine world which powered by solar power and every individual or machine can produce, sell, buy, borrow exchange the energy independently.
 
-    Peer to Peer energy between autonomous machines and humans 
+    Peer to Peer energy between autonomous machines and humans
   .s20
 
 -# video to add - intel edison plus solether
 
 .box.b2
-  %p 
+  %p
   %img.class43{src:"/images/solether_graph.png"}/
- 
+
 
 
 .box.b3
@@ -33,18 +33,29 @@
     Sun + Solar Panel + Battery + Intel Edison + Blockchain = Autonomous Energy
   %p.class23
     This is how it works:It watches an ethereum address, if it that address receives a payment, it let the energy flow through the usb port so you can charge your phone or your tablet for example.
-    
+
 .box.b31
 
   %p.class232
     Solether is an ethereum entity, you can extend this project and add some logic to it. For example, a more advanced version of Solether could enable you to give it the  ability to grow and/or replicate. Because Solether is selling energy in exchange for Ethers, after some time it will collect a good amount of them, that will probably be higher than the cost of the Solether device itself. After having reached this point, it could ask to other humans (or robots :D) to make it grow. A human can plug more solar panels and batteries to the Solether entity and receive money in return. The device will check if it is receiving the energy from the additional panels/batteries and pay the one that extended it. This way Solether devices can grow and replicate autonomously.
-    
+
   %img{src:"/images/solether-fields-long.png"}/
 
 .box.b32
   %p.class23
     Solether is a an autonomous entity that will give you electrical energy in exchange for ethers.You can charge your phone for 30 minutes by just plugging it in and sending 1 Ether.
 
+:javascript
+  $(function(){
+    $(".start_search").on("click", function(){
+      console.log("WTF")
+      $(".box.b5").removeClass("hidden")
+    })
+
+    $(".start_charging").on("click", function(){
+      $(".box.b6").removeClass("hidden")
+    })
+  })
 
 .box.b4
   %h4
@@ -52,27 +63,29 @@
 
   %label
     Your Location
-    %input{placeholder:"W2 3UP"}
+    %input{placeholder:"W11 3JQ"}
 
-.box.b5
-  %p Solether 1abc....
-  %button Start Charging
+  %button.start_search Start Charging
 
-.box.b6
-  %p Deposit ether
+
+.box.b5.hidden
+  %h3 1 Solether device found
+  %p address 0xbf8c6f77825a2fc32fe9d21a4dc384323a036099
+  %button.start_charging Start Charging
+
+.box.b6.hidden
+  %p Deposit Ether
   %img.qrcode{src:"/images/qrcode.gif"}
   .address
-    %p 1bcd...
+    %p to address: 0xbf8c6f77825a2fc32fe9d21a4dc384323a036099
 
-.box.b7
-  %p Your device is charging! :)
 
 .box.b8
-  %p.class232 
+  %p.class232
   Solether is an open source DIY project targeted to create a simple proof of concept of what an autonomous ethereum entity can be like.Solether code is running on an Arudino/Intel Edison
 
 
 .box
-  %p code
+  %p Check out the code!
   %div{ width: "70%"}
     %script{height: 300, width:"100%", :src => "https://gist.github.com/makevoid/e577c423c15c265e75a7.js"}
