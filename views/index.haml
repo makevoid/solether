@@ -45,39 +45,39 @@
   %p.class23
     Solether is a an autonomous entity that will give you electrical energy in exchange for ethers.You can charge your phone for 30 minutes by just plugging it in and sending 1 Ether.
 
-:javascript
-  $(function(){
-    $(".start_search").on("click", function(){
-      console.log("WTF")
-      $(".box.b5").removeClass("hidden")
-    })
-
-    $(".start_charging").on("click", function(){
-      $(".box.b6").removeClass("hidden")
-    })
-  })
-
-.box.b4
-  %h4
-    Find Solether
-
-  %label
-    Your Location
-    %input{placeholder:"W11 3JQ"}
-
-  %button.start_search Start Charging
-
-
-.box.b5.hidden
-  %h3 1 Solether device found
-  %p address 0xbf8c6f77825a2fc32fe9d21a4dc384323a036099
-  %button.start_charging Start Charging
-
-.box.b6.hidden
-  %p Deposit Ether
-  %img.qrcode{src:"/images/qrcode.gif"}
-  .address
-    %p address: 0xbf8c6f77825a2fc32fe9d21a4dc384323a036099
+-# :javascript
+-#   $(function(){
+-#     $(".start_search").on("click", function(){
+-#       console.log("WTF")
+-#       $(".box.b5").removeClass("hidden")
+-#     })
+-#
+-#     $(".start_charging").on("click", function(){
+-#       $(".box.b6").removeClass("hidden")
+-#     })
+-#   })
+-#
+-# .box.b4
+-#   %h4
+-#     Find Solether
+-#
+-#   %label
+-#     Your Location
+-#     %input{placeholder:"W11 3JQ"}
+-#
+-#   %button.start_search Start Charging
+-#
+-#
+-# .box.b5.hidden
+-#   %h3 1 Solether device found
+-#   %p address 0xbf8c6f77825a2fc32fe9d21a4dc384323a036099
+-#   %button.start_charging Start Charging
+-#
+-# .box.b6.hidden
+-#   %p Deposit Ether
+-#   %img.qrcode{src:"/images/qrcode.gif"}
+-#   .address
+-#     %p address: 0xbf8c6f77825a2fc32fe9d21a4dc384323a036099
 
 
 .box.b8
