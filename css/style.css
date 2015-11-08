@@ -83,7 +83,8 @@ label {
 
 .b001 h1 {
   position: relative;
-  top: 100px; }
+  top: 130px;
+  padding-bottom: 0; }
 
 .class43 {
   width: 65%;
