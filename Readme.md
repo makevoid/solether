@@ -13,7 +13,7 @@ Also here's a message I sent to somebody asking via email how I forsee the autom
 
 ----
 
-### Making solethere autonomous:
+### Making Solether autonomous:
 
 From a message I sent via email:
 
