@@ -39,7 +39,7 @@ The autonomous part as I thought about it a bit, can work like this:
 - in the loop:
   - if sensor receives current for a week (during day hours)
     - web3.sendTransaction NEW_USER_ADDRESS (send the funds)
-``
+```
 
 
 #### webapp:
