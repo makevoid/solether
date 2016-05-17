@@ -52,5 +52,11 @@ The autonomous part as I thought about it a bit, can work like this:
 - you write a file in the local Arduino/R-PI filesystem, the arduino/r-pi code in the loop reads it and gets the NEW_USER_ADDRESS variable
 
 
+##### Schematics:
+
+Unfinished, guess what's at the top, a voltage regulator.
+
+![](https://raw.githubusercontent.com/makevoid/solether/master/schematics/solether_bb.png)
+
 thanks
 [@makevoid](https://twitter.com/makevoid)
