@@ -54,9 +54,7 @@ The autonomous part as I thought about it a bit, can work like this:
 
 ##### Schematics:
 
-Unfinished, guess what's at the top, a voltage regulator.
-
-![](https://raw.githubusercontent.com/makevoid/solether/master/schematics/solether_bb.png)
+![](https://github.com/makevoid/solether/blob/master/schematics/solether_bb2.png?raw=true)
 
 thanks
 [@makevoid](https://twitter.com/makevoid)
